@@ -42,7 +42,7 @@ let stake = {
             disableBt("btEnd");
         };
     },
-    upRate:()=>{
+    upRate:() => {
         stake.dollarUser = stake.dollarUser - 100;
         stake.dollarCon = stake.dollarCon + 100;
         enableBt("btEnd");
@@ -58,7 +58,7 @@ let stake = {
         this.dollarCon = 0;
         stake.workStake();
     },
-    takeMoney(win){
+    takeMoney(win) {
         this[win] = this[win] + this.dollarCon;
         this.dollarCon = 0;
         stake.workStake();
@@ -201,17 +201,18 @@ function compTakeCard(){
 };
 
 //Работка со ставками
-
-
 function endGame(win = 0){
-    let cardR = document.getElementsByClassName("card comp");
-    for(i=0; i < cardR.length; i++)
+    let cardCompArr = document.getElementsByClassName("card comp");
+    for(i=0; i < cardCompArr.length; i++)
     {
-        cardR[i].className="card comp reverse";
-        let p = cardR[i].getElementsByTagName('p');
-        p[0].className = "visible";
+        cardCompArr[i].className="card comp reverse";
+        let tagP = cardCompArr[i].getElementsByTagName('p');
+        tagP[0].className = "visible";
     }
-    setTimeout(()=>{
+    setTimeout(endComment(),3000);
+};
+
+function endComment(){
         enableBt("btAdd");
         enableBt("btOK");
         disableBt("btEnd");
@@ -227,6 +228,4 @@ function endGame(win = 0){
             stake.noMoney();
         };
         startNewGame();
-        },3000);
 }
-
