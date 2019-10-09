@@ -1,0 +1,197 @@
+html{
+    display: flex;
+}
+body {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-around;
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 100%;
+    height: 620px;
+    background: radial-gradient(black 15%, transparent 16%) 0 0, radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 0 1px;
+    background-color: green;
+    background-size: 5px 5px;
+    box-shadow: 0px 0px 5px 3px black;
+}
+
+.line{
+    display: inline-flex;
+    flex-flow: row nowrap;
+    justify-content:flex-start;
+    align-items: center;
+    flex-shrink: 1;
+    flex-grow: 1;
+    width: 100%;
+    height: 33.3%;
+    margin-left: 2px;
+}
+
+.Comm{
+    width: 100%;
+    height: 10%; 
+}
+
+.panelButton{
+    width: 100%;
+    height: 10%;
+    background:linear-gradient(35deg,rgb(0, 0, 0)2%,rgb(60, 56, 56)30%,black 50%,rgb(103, 103, 103)70%,rgb(132, 122, 122)80% ,rgb(12, 12, 12)100% );
+    border-radius: 20px;
+    box-shadow:  black 0px 5px 5px;
+}
+
+.C{
+    width: 75%;
+    height: 75%;
+}
+.D{
+    width: 25%;
+    height: 50%;
+    justify-content: flex-start;
+}
+
+.card{
+    background-color:#1e0b48;
+    background-image: linear-gradient(45deg, transparent,transparent 9%, rgba(255,255,255,.3) 48%, rgba(255,255,255,.3) 52%, transparent 100%);
+    background-size:10px 10px;
+    width:10%;
+    height:75%;
+    color:red;
+    align-items: center;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content:center;
+    align-items: center;
+    transition:all 1s;
+    transform:scaleX(-1);
+    border-radius:3px;
+    box-shadow:0px 2px 2px black;
+}
+
+.user{
+    /*margin-top:85%;*/
+}
+
+.comp{
+    /*position: relative; */
+}
+
+
+.btAdd {
+    text-decoration: none;
+    outline: none;
+    display: inline-flex;
+    padding: 10px 30px;
+    margin: 5px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10%;
+    border: inherit;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', italica; 
+    background:linear-gradient(0deg,rgb(0, 0, 0)2%,rgb(60, 56, 56)30%,black 50%,rgb(103, 103, 103)70%,rgb(132, 122, 122)80% ,rgb(12, 12, 12)100% );
+    transition: .2s ease-in-out;
+    box-shadow: 1px 2px 15px 0px #01ef3447, 5px 2px 0px 0px #000000;
+  }
+  .btAdd:before {
+    content: "";
+    background: linear-gradient(45deg, rgba(255,255,255,.1), rgba(255,255,255,.5));
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: -8px;
+    left: -75px;
+    transform: skewX(45deg);
+  }
+  .btAdda:hover {
+    background: #fe6637;
+    color: #fff;
+  }
+  .btAdd:hover:before {
+    left: 150px;
+    transition: .5s ease-in-out;
+  }
+
+.reverse{
+    transform:scaleX(1);
+    background: #fffbce;
+}
+
+b{
+    font-size: 22px;
+    display: flex;
+    transition: opacity 1s;
+    color: black;
+    text-shadow: 0px 2px 0px rgb(255, 27, 0);
+}
+
+.textBt{
+    font-family: cursive;
+    font-size: 17px;
+    display: flex;
+    transition: opacity 1s;
+    color: #00fb00;
+    text-shadow: 0px 0px 7px rgb(14, 255, 14);
+}
+
+
+.dollar{
+    height:10em;
+    width: 10em;
+    border-radius: 100%;
+    border:10px dashed white;
+    background:repeating-radial-gradient(circle, black 10px, #e31818 11px);
+    box-shadow: inset #4f1818 0px 0px 0px 8px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:center;
+    align-items: center;
+
+}
+.dollarText{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:center;
+    align-items: center;
+    width: 3.2em;
+    height: 3.2em;
+    background: black;
+    border-radius: 100%;
+    border:.1em dashed white;
+    box-shadow: #ffffff 0px 0px 0px 2px;
+}
+.us{
+    /*margin-top:110%;
+    margin-left:70%;*/
+}
+.co{
+    /*left:35%;*/
+}
+
+.comment{
+    display:flex;
+    height:80px;
+    width:140px;
+    background:deepskyblue;
+    border-radius:18px;
+    opacity:0;
+}
+
+.comment:after{
+    content:"";
+    position:absolute;
+    border-right:34px solid transparent;
+    border-top:34px solid transparent;
+    border-left:44px solid deepSkyBlue;
+    margin-left:6.5em;
+    margin-top:2.85em;
+}
+
+p{
+    opacity:0;
+    transition:1s all;
+    font-size:2em;
+    color:black;
+}
+.visible{
+    opacity:1;
+}

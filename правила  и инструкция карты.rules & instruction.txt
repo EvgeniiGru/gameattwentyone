@@ -1,0 +1,36 @@
+Игра в 21
+ Правила: Вы вятыгиваете по одной карты, ваша задача набрать 21 или ниже.
+Число карты соответствует числу приносимых ей очков например 2 буби = 2 очкам, 3 червы = 3 очка. Все карты выше 10 приносят 10 очкова, а туз 11.
+Если вы набрали больше 21 то игра автоматически обновляется, а вы проигрываете раунд.
+в случае набора удачной комбинации. ход переходит сопернику, который так же  будет брать карты.
+Вы можете повышать ставку, а в случае повышения ставки 
+противником вы должны ответить на его ставку, а потом решить будете ли бы повышать еще или нет.
+Когда ставки сделаны карты вскрываются и тот кто набрал большее количество очков побеждает.
+ИНСТРУКЦИЯ
+используй add что бы взять карту.Если вы считает что набрали максимально близкое число очков к 21 или 21 то нажмите "ok" что бы ход перешел сопернику.
+Подождите пока соберник наберет себе карты.
+Если считаете что ваша комбинация удачная можете повысит ставку нажав на фишку, автоматически спишиться 100 поинтов и начислиться в общий кон.
+Если ваш соперник ответил на вашу ставку,то вы обязаны ответить ему.
+После ответа права на повышении ставки к вам переходит( можете воспользоваться им или  нет)
+кнопка "end" завершает текущую партию и раскрывает карты соперника, после чего определяется победитель. требуется подождать и новый раунд начнеться 
+автоматически.
+
+
+Game of 21
+ Rules: You pull one card, your task is to score 21 or lower.
+The number of cards corresponds to the number of points brought to it, for example 2 diamonds = 2 points, 3 hearts = 3 points.
+All cards above 10 bring 10 points, and Ace 11.
+If you score more than 21 then the game is automatically updated, and you lose the round.
+in case of a set of a successful combination. the move goes to the opponent, who will also take cards.
+You can raise the bid, and in case of a raise
+you must respond to his bet with an adversary, and then decide whether you would raise it yet or not.
+When bets are made, the cards are opened and the one who scored the most points wins.
+insturation:
+use add to draw the card.
+If you think that you have scored the closest possible number of points to 21 or 21 then click "ok" so that the move goes to the opponent.
+Wait until the collector collects cards for himself.
+If you think that your combination is successful, you can increase the bet by clicking on a chip, automatically write off 100 points and accrue in the general con.
+If your opponent answered your bet, then you must answer him.
+After the answer, the right to raise the rate goes to you (can you use it or not)
+the "end" button completes the current game and reveals the opponent’s cards, after which the winner is determined. wait and a new round starts
+automatically.
