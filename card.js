@@ -209,10 +209,7 @@ function endGame(win = 0){
         let tagP = cardCompArr[i].getElementsByTagName('p');
         tagP[0].className = "visible";
     }
-    setTimeout(endComment(),3000);
-};
-
-function endComment(){
+    setTimeout(() => {
         enableBt("btAdd");
         enableBt("btOK");
         disableBt("btEnd");
@@ -228,4 +225,5 @@ function endComment(){
             stake.noMoney();
         };
         startNewGame();
+        },3000);
 }
