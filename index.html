@@ -1,0 +1,40 @@
+<!Doctype html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<link rel="stylesheet" href="card.css">
+
+</head>
+
+<body>
+    <div class = "line">
+        <div class = "line C" id = "lineComp">
+        </div>
+        <div class="line D">
+             <button class="dollar co" onclick = ""><b id = "dollarComp"  class = "dollarText"></b></button>
+        </div>
+    </div>
+    <div class = "line Comm" id = "lineCommon">
+        <div class="line D">
+            <button class="dollar con" onclick = ""><b id = "dollarCon"  class = "dollarText"></b></button>
+        </div>
+        <div class = "line C" id = "lineComp">
+            <div class="comment">dollar</div>   
+        </div>
+    </div>
+    <div class="line">
+        <div class="line C" id = "lineUser">
+        </div>
+        <div class="line D">
+            <button class="dollar us" onclick = "" id="dollarUserbt"><b id = "dollarUser" class = "dollarText"></b></button>
+        </div>
+    </div>
+    <div class = "line panelButton">
+        <button class="btAdd" onclick = "showCard()" id = "btAdd" ><b class = 'textBt' id = 'btAddText'>Add</b></button>
+        <button class="btAdd robot" onclick = "compTakeCard()" id = "btOK"><b class = 'textBt'  id = 'btOKText'>OK</b></button>
+        <button class="btAdd end" onclick="" id="btEnd"><b class = 'textBt'  id = 'btEndText'>End</b></button>
+    </div>
+</body>
+
+<script src="card.js"  type="text/javascript"></script>
+</html>
