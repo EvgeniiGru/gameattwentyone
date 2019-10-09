@@ -1,6 +1,20 @@
 html{
     display: flex;
 }
+
+@media (min-width: 600px)and (max-width: 849px){
+    body {height: 480px;}
+  }
+@media (min-width: 850px)and (max-width: 1023px){
+    body {height: 520px;}
+  }
+@media (min-width: 1024px)and (max-width: 1299px) {
+    body {height: 670px;}
+  }
+@media (min-width: 1300px){
+    body {height: 1000px;}
+  }
+
 body {
     display: flex;
     flex-flow: column wrap;
