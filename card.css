@@ -22,7 +22,6 @@ body {
     flex-grow: 1;
     flex-shrink: 1;
     width: 100%;
-    height: 620px;
     background: radial-gradient(black 15%, transparent 16%) 0 0, radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 0 1px;
     background-color: green;
     background-size: 5px 5px;
